@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+
+
+
+<h1 id = "title"> Black Panther Survey Form </h1>
+
+<p id="Description"> Thank you for taking the time to fill out this form</p>
+
+<div id="body">
+
+<form id="survey-form">
+    <labe id="name-labe" for="name">
+    <p>Name:</p>
+    </labe>
+
+<input id="name" type="text" placeholder="enter your name" required>
+
+<labe id="email-labe" for="email">
+    <p>Email:</p>
+    </labe>
+
+<input id="email" type="email" placeholder="enter your Email" required>
+
+<labe id="number-labe" for="number">
+    <p>Age:</p>
+    </labe>
+
+<input id="number" type="number" placeholder="enter your Age" min="16" max="30" required>
+<p>Why Is T'Challa the Right Perfect King Of Wakanda</p>
+<select id="dropdown">
+    
+    <option value="default" Nothing></option>
+    <option value="He is the strongest"> He is the strongest</option>
+    <option value="He is honest and truthful"> He is honest and truthfull to his people</option>
+    <option value="He can fight"> he can fight</option>
+    <option value="He is the son of the first Black Panther"> He is the son of the first black Panther</option>
+
+</select>
+
+<p> Other than Chardwick, which actor would be perfect to be king of Wakanda</p>
+
+<input type="radio" name="actor" value="1"> Idris Elba</input>
+<br>
+<input type="radio" name="actor" value="2"> Michael b. Jordan</input>
+<br>
+<input type="radio" name="actor" value="3"> Cuba Gooding</input>
+<br>
+<input type="radio" name="actor" value="4"> Will Smith</input>
+<br>
+<input type="radio" name="actor" value="5"> Denzel Washington</input>
+<br>
+<input type="radio" name="actor" value="6"> Dwayne Johnson</input>
+<br>
+<input type="radio" name="actor" value="7"> Jamie Foxx</input>
+
+<p>Which of the other Avengers(origional 6) Do you like</p>
+
+<input type="checkbox" name="avenger" value="1"> Iron man</input>
+<br>
+<input type="checkbox" name="avenger" value="1"> Captain America</input>
+<br>
+<input type="checkbox" name="avenger" value="1"> Thor</input>
+<br>
+<input type="checkbox" name="avenger" value="1"> Hulk</input>
+<br>
+<input type="checkbox" name="avenger" value="1"> Black Widow</input>
+<br>
+<input type="checkbox" name="avenger" value="1"> Hawkeye</input>
+<br>
+
+<textarea id="comment" rows="4" cols="40"> Add your comment here</textarea>
+<input id="submit" type="submit" value="submit"></input>
+
+</form>
+
+</div>
+    
+</body>
+</html>
